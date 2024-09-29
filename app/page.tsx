@@ -71,7 +71,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-lg">
-                5년차 백엔드 개발자이며, 페이프로토콜에서 개발팀장으로 근무
+                6년차 백엔드 개발자이며, 페이프로토콜에서 개발팀장으로 근무
                 중입니다.
               </p>
               <p className="text-lg">
@@ -155,11 +155,125 @@ export default function Home() {
 
         {/* 경력 섹션 */}
         <div>
-          <h2 className="text-3xl font-semibold mb-4">경력</h2>
-          <ul className="space-y-2">
-            <li>페이프로토콜 - 개발팀장 (2018 - 현재)</li>
-            <li>ABC 회사 - 백엔드 개발자 (2015 - 2018)</li>
-          </ul>
+          <h2 className="text-3xl font-semibold mb-6">경력/이력</h2>
+
+          {/* 타임라인 시작 */}
+          <div className="relative border-l-2 border-gray-400 dark:border-gray-600 ml-6">
+            {/* PayProtocolAG 백엔드 개발자 */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">
+                PayProtocolAG, 백엔드 개발자
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2021.12 ~ 2024.01
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">
+                  페이프로토콜(가상화폐) 관련 서버 개발 및 운영
+                </p>
+                <p>springboot, kafka 도입</p>
+                <p>글로벌 페이코인 신규 개발</p>
+                <p>2024.02~ 개발팀장</p>
+              </div>
+            </div>
+
+            {/* KAIST */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">
+                한국과학기술원(KAIST) 졸업, 전산학부 전공, 문화기술학 부전공
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2022.02
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">2014.02 ~ 2022.02</p>
+              </div>
+            </div>
+
+            {/* 한국조폐공사 인턴 */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">
+                인턴, 한국조폐공사 정보기술연구센터 (졸업연구 대체)
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2021.03 ~ 2021.08
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">Hyperledger Indy, DID 기술 연구</p>
+                <p>DID 모바일 사원증 개발</p>
+                <p>AWS, Spring Boot, MySQL, Android 사용</p>
+              </div>
+            </div>
+
+            {/* 다날 서비스개발팀 */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">
+                대리, 다날 서비스개발팀 (산업기능요원 복무)
+              </h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2017.11 ~ 2020.02
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">
+                  페이프로토콜(가상화폐) 월렛 앱/결제 서버 신규 개발 및 운영
+                </p>
+                <p>삼성페이 온라인 휴대폰결제 결제 서버 신규 개발</p>
+                <p>Java, MySQL, 내부 프레임워크 사용</p>
+              </div>
+            </div>
+
+            {/* 디너의여왕 인턴 */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">인턴, 디너의여왕 개발팀</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2016.07 ~ 2016.08
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">
+                  백엔드 개발, 앱 API 유지 보수, 내부 CMS 개발
+                </p>
+                <p>PHP, CodeIgniter, MySQL 사용</p>
+              </div>
+            </div>
+
+            {/* KAIST */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">한국과학기술원(KAIST) 입학</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2014.03
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">2014.02 ~ 2022.02</p>
+              </div>
+            </div>
+
+            {/* 한국과학영재학교 */}
+            <div className="group mb-10 ml-10">
+              <div className="absolute w-3 h-3 bg-blue-600 rounded-full left-[-7px] top-2"></div>
+              <h3 className="text-xl font-bold">한국과학영재학교</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                2011.02 ~ 2014.02
+              </p>
+              {/* 상세 설명 */}
+              <div className="max-h-0 overflow-hidden group-hover:max-h-40 transition-all duration-300 ease-in-out">
+                <p className="mt-2">정보과학 전공, 정보올림피아드 참가</p>
+                <p>Research & Education - Cloud 관련</p>
+                <p>졸업연구 - Android 개발</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <hr className="my-6 border-gray-300 dark:border-gray-600" />
