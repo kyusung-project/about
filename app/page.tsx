@@ -280,11 +280,10 @@ export default function Home() {
 
         {/* 프로젝트 섹션 */}
         <div>
-          <h2 className="text-3xl font-semibold mb-4">프로젝트</h2>
+          <h2 className="text-3xl font-semibold mb-4">프로젝트 (정리 필요)</h2>
           <ul className="space-y-2">
-            <li>프로젝트 A - 설명</li>
-            <li>프로젝트 B - 설명</li>
-            <li>프로젝트 C - 설명</li>
+            <li>회사에서 진행했던 프로젝트들 내용 추가 예정</li>
+            <li>소스코드 공개할 만한 개인 프로젝트 추가 예정</li>
           </ul>
         </div>
 
@@ -292,11 +291,10 @@ export default function Home() {
 
         {/* 공부중 섹션 */}
         <div>
-          <h2 className="text-3xl font-semibold mb-4">공부중</h2>
+          <h2 className="text-3xl font-semibold mb-4">공부중 (정리 필요)</h2>
           <ul className="space-y-2">
-            <li>프론트엔드 기술</li>
-            <li>클라우드 컴퓨팅</li>
-            <li>데이터베이스 최적화</li>
+            <li>김영한 강의</li>
+            <li>노마드 강의</li>
           </ul>
         </div>
       </main>
