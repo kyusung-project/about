@@ -1,6 +1,6 @@
 "use client";
-import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function Sidebar() {
   const [theme, setTheme] = useState("system");
@@ -35,7 +35,7 @@ export default function Sidebar() {
   }, [theme]);
 
   return (
-    <div className="w-1/4 h-screen bg-gray-200 dark:bg-gray-800 text-black dark:text-white p-5">
+    <div className="w-1/4 bg-gray-200 dark:bg-gray-800 text-black dark:text-white p-5">
       <ul>
         <li>
           <Link href="/introduction">소개글</Link>
